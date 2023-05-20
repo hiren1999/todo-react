@@ -1,0 +1,12 @@
+body {
+  font-family: var(--font-family);
+  background-color: var(--surface-200);
+}
+.p-password-input {
+  width: 100%;
+}
+.p-checkbox .p-checkbox-box,
+.p-checkbox {
+  width: 25px;
+  height: 25px;
+}
