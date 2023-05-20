@@ -57,7 +57,7 @@ export const LoginUser = (data) => (dispatch) => {
       dispatch(
         setError({
           isError: true,
-          message: "User Credentials does not matched.",
+          message: "User credentials does not match.",
         })
       );
     } else {
